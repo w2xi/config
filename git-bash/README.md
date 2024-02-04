@@ -7,9 +7,6 @@
 ```bash
 source ~/.bashrc
 
-# Github Token for release-it
-export GITHUB_TOKEN="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"
-
 # Shows Git branch name in prompt.
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
